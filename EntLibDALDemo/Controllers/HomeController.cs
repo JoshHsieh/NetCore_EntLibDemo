@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using EntLibDALDemo.Models;
+using EntLibDALDemo.Util;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EntLibDALDemo.Controllers
@@ -8,14 +9,23 @@ namespace EntLibDALDemo.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly DbHelper _dbHelper;
+        public HomeController(ILogger<HomeController> logger, DbHelper dbHelper)
         {
             _logger = logger;
+
+            _dbHelper = dbHelper;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var vm = new IndexViewModel();
+
+            string testSql = "SELECT version();";
+
+            vm.QuerySingleValue = _dbHelper.TestPgQuery(testSql);
+
+            return View(vm);
         }
 
         public IActionResult Privacy()

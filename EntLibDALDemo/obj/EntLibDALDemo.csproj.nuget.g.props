@@ -13,4 +13,8 @@
     <SourceRoot Include="C:\Users\shieh\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgEnterpriseLibrary_Common_NetCore Condition=" '$(PkgEnterpriseLibrary_Common_NetCore)' == '' ">C:\Users\shieh\.nuget\packages\enterpriselibrary.common.netcore\6.3.0</PkgEnterpriseLibrary_Common_NetCore>
+    <PkgEnterpriseLibrary_Data_NetCore Condition=" '$(PkgEnterpriseLibrary_Data_NetCore)' == '' ">C:\Users\shieh\.nuget\packages\enterpriselibrary.data.netcore\6.3.2</PkgEnterpriseLibrary_Data_NetCore>
+  </PropertyGroup>
 </Project>
