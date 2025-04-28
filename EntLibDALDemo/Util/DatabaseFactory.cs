@@ -51,24 +51,9 @@ namespace EntLibDALDemo.Util
             {
                 if ( _mySqlDb == null )
                 {
-                    var connSection = new ConnectionStringsSection();
+                    var mySqlProvider = DbProviderFactories.GetFactory( _dbProviderSection.MySqlProvider );
 
-                    var connSetting = new ConnectionStringSettings();
-
-                    connSetting.Name = MySqlConnName;
-                    connSetting.ConnectionString = _mySqlconnString;
-                    connSetting.ProviderName = _dbProviderSection.MySqlProvider;
-
-                    connSection.ConnectionStrings.Add( connSetting );
-
-
-                    var configSource = new DictionaryConfigurationSource();
-
-                    configSource.Add( "dbConn", connSection );
-
-                    DatabaseProviderFactory factory = new DatabaseProviderFactory( configSource );
-
-                    _mySqlDb = factory.Create( MySqlConnName );
+                    _mySqlDb = new GenericDatabase( _mySqlconnString, mySqlProvider );
                 }
 
                 return _mySqlDb;
@@ -83,35 +68,9 @@ namespace EntLibDALDemo.Util
             {
                 if ( _pgSqlDb == null )
                 {
-                    var dbSettings = new DatabaseSettings();
+                    var pgSqlProvider = DbProviderFactories.GetFactory( _dbProviderSection.PgSqlProvider );
 
-                    var connSection = new ConnectionStringsSection();
-
-                    var connSetting = new ConnectionStringSettings();
-
-                    var dbProvider = new DbProviderMapping("Npgsql", "Npgsql.NpgsqlFactory, Npgsql");
-
-                    connSetting.Name = PgSqlConnName;
-                    connSetting.ConnectionString = _pgSqlconnString;
-                    connSetting.ProviderName = _dbProviderSection.PgSqlProvider;
-
-                    connSection.ConnectionStrings.Add( connSetting );
-                    dbProvider.DatabaseTypeName = "Npgsql.NpgsqlFactory, Npgsql";
-                    dbSettings.ProviderMappings.Add( dbProvider );
-                    dbSettings.DefaultDatabase = PgSqlConnName;
-
-                    var configSource = new DictionaryConfigurationSource();
-
-                    configSource.Add( DatabaseSettings.SectionName, dbSettings );
-                    configSource.Add( "connectionStrings", connSection );
-
-                    var pgSqlProvider = DbProviderFactories.GetFactory( "Npgsql" );
-
-                    //DatabaseProviderFactory factory = new DatabaseProviderFactory( configSource.GetSection );
-                    //_pgSqlDb = factory.Create( PgSqlConnName );
                     _pgSqlDb = new GenericDatabase( _pgSqlconnString, pgSqlProvider );
-
-
                 }
 
                 return _pgSqlDb;

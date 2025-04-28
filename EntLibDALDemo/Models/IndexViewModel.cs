@@ -2,6 +2,9 @@
 {
     public class IndexViewModel
     {
-        public string? QuerySingleValue { get; set; }
+
+        public List<string>? RoleNameList { get; set; }
+
+        public List<string>? AgentNameList { get; set; }
     }
 }

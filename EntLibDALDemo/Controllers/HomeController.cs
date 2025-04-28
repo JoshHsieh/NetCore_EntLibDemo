@@ -21,9 +21,13 @@ namespace EntLibDALDemo.Controllers
         {
             var vm = new IndexViewModel();
 
-            string testSql = "SELECT version();";
+            //string testPgSql = "SELECT version();";
 
-            vm.QuerySingleValue = _dbHelper.TestPgQuery(testSql);
+            //vm.QuerySingleValue = _dbHelper.TestPgQuery(testPgSql);
+
+            string testPgSqlQuery = "select * from public.Users;";
+
+            vm.AgentNameList = _dbHelper.TestPgQueryCmd( testPgSqlQuery );
 
             return View(vm);
         }

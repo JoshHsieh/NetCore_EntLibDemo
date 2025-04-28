@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|d:\\myworks\\github_demo\\netcore_entlibdemo\\entlibdaldemo\\util\\databasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|solutionrelative:entlibdaldemo\\util\\databasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|d:\\myworks\\github_demo\\netcore_entlibdemo\\entlibdaldemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|solutionrelative:entlibdaldemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|d:\\myworks\\github_demo\\netcore_entlibdemo\\entlibdaldemo\\util\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +15,8 @@
       "RelativeMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|solutionrelative:entlibdaldemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|d:\\myworks\\github_demo\\netcore_entlibdemo\\entlibdaldemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|solutionrelative:entlibdaldemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|d:\\myworks\\github_demo\\netcore_entlibdemo\\entlibdaldemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|solutionrelative:entlibdaldemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|d:\\myworks\\github_demo\\netcore_entlibdemo\\entlibdaldemo\\util\\databasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|solutionrelative:entlibdaldemo\\util\\databasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|d:\\myworks\\github_demo\\netcore_entlibdemo\\entlibdaldemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -29,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|d:\\myworks\\github_demo\\netcore_entlibdemo\\entlibdaldemo\\models\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|solutionrelative:entlibdaldemo\\models\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|d:\\myworks\\github_demo\\netcore_entlibdemo\\entlibdaldemo\\models\\dbprovidermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00363B52-2F64-4713-B8F7-775A431E1E11}|EntLibDALDemo\\EntLibDALDemo.csproj|solutionrelative:entlibdaldemo\\models\\dbprovidermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -60,35 +52,22 @@
               "RelativeDocumentMoniker": "EntLibDALDemo\\Util\\DbHelper.cs",
               "ToolTip": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Util\\DbHelper.cs",
               "RelativeToolTip": "EntLibDALDemo\\Util\\DbHelper.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAYwB8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T10:40:17.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DatabaseFactory.cs",
               "DocumentMoniker": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Util\\DatabaseFactory.cs",
               "RelativeDocumentMoniker": "EntLibDALDemo\\Util\\DatabaseFactory.cs",
               "ToolTip": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Util\\DatabaseFactory.cs",
               "RelativeToolTip": "EntLibDALDemo\\Util\\DatabaseFactory.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAUwG8AAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T16:09:20.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "EntLibDALDemo\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "EntLibDALDemo\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAUwAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T11:30:34.936Z",
               "EditorCaption": ""
             },
             {
@@ -99,61 +78,48 @@
               "RelativeDocumentMoniker": "EntLibDALDemo\\appsettings.json",
               "ToolTip": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\appsettings.json",
               "RelativeToolTip": "EntLibDALDemo\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-23T14:55:16.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Program.cs",
-              "RelativeDocumentMoniker": "EntLibDALDemo\\Program.cs",
-              "ToolTip": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Program.cs",
-              "RelativeToolTip": "EntLibDALDemo\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T15:56:36.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "EntLibDALDemo\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Controllers\\HomeController.cs",
               "RelativeToolTip": "EntLibDALDemo\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwBsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T11:26:03.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EntLibDALDemo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EntLibDALDemo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T11:30:34.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IndexViewModel.cs",
               "DocumentMoniker": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Models\\IndexViewModel.cs",
               "RelativeDocumentMoniker": "EntLibDALDemo\\Models\\IndexViewModel.cs",
               "ToolTip": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Models\\IndexViewModel.cs",
               "RelativeToolTip": "EntLibDALDemo\\Models\\IndexViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T11:28:26.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DbProviderMapping.cs",
-              "DocumentMoniker": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Models\\DbProviderMapping.cs",
-              "RelativeDocumentMoniker": "EntLibDALDemo\\Models\\DbProviderMapping.cs",
-              "ToolTip": "D:\\MyWorks\\Github_Demo\\NetCore_EntLibDemo\\EntLibDALDemo\\Models\\DbProviderMapping.cs",
-              "RelativeToolTip": "EntLibDALDemo\\Models\\DbProviderMapping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T15:59:41.442Z",
               "EditorCaption": ""
             }
           ]
